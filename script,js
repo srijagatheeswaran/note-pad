@@ -1,0 +1,34 @@
+// for select inputs
+
+var input1=document.getElementById("input1")
+var input2=document.getElementById("input2")
+
+// select head and para
+
+var head=document.getElementById("head")
+var para=document.getElementById("para")
+
+ function press(){
+    head.textContent=input1.value
+    para.textContent=input2.value
+    
+
+    
+    
+
+ }
+ function del(){
+    head.textContent=""
+    input1.value=""
+}
+function delp(){
+    para.textContent=""
+    input2.value=""
+}
+function delall(){
+    head.textContent=""
+    input1.value=""
+    input2.value=""
+    para.textContent=""
+
+}
